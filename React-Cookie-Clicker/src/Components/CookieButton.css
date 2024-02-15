@@ -1,0 +1,26 @@
+.cookies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  height: auto;
+  width: 190px;
+}
+.cookie-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.resetbtn {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  background-color: grey;
+}
