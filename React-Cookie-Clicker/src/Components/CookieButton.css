@@ -16,11 +16,24 @@ img {
   cursor: pointer;
   overflow: hidden;
   outline: none;
+  transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+.cookie-button:hover {
+  animation: glow 1s infinite alternate; /* Add glow animation */
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #fff; /* Initial glow effect */
+  }
+  100% {
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff; /* Final glow effect */
+  }
 }
 
 .resetbtn {
-  position: absolute;
-  bottom: 2rem;
-  left: 1rem;
-  background-color: grey;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
 }

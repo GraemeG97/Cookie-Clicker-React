@@ -1,0 +1,33 @@
+/* Style for the shop container */
+.shopItems {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for individual shop items */
+.shopItems .shopItem {
+  margin-bottom: 10px;
+}
+
+.shopItems p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style for the level of each item */
+.shopItems p .level {
+  font-weight: bold;
+}
+
+/* Style for the cost of each item */
+.shopItems p .cost {
+  color: #007bff; /* Blue color for cost */
+}
+
+/* Style for the price of each item */
+.shopItems p .price {
+  color: #28a745; /* Green color for price */
+}
